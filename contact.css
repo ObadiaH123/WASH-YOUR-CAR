@@ -4,15 +4,15 @@ body {
     background-size: cover;
 }
 
-.greeting {
+.invite {
     text-align: center;
 }
 
 .about {
     color: white;
     text-align: center;
-    padding-top: 25px; 
-    padding-bottom: 25px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
 }
 
 label {
@@ -54,6 +54,7 @@ input[type=submit]:hover {
     width: 50%;
     margin-top: 6px;
     padding: 20px;
+    top: 200px;
 
 }
   
