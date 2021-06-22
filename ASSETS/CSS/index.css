@@ -15,10 +15,10 @@ body{
     background-size: cover;
 }
 
-#nav p{
+#topnav p{
     margin-left: 2%;
 }
-#nav img{
+#topnav img{
     float: left;
     height: 100px;
     width: 100px;
@@ -57,8 +57,8 @@ body{
     position: absolute;
 width: 1013px;
 height: 78px;
-left: 350px;
-top: 561px;
+left: 500px;
+top: 250px;
 
 font-family: 'Big Shoulders Stencil Display', cursive;
 font-style: normal;
@@ -72,8 +72,8 @@ color: #FFFFFF;
 position: absolute;
 width: 793px;
 height: 49px;
-left: 500px;
-top: 700px;
+left: 600px;
+top: 400px;
 
 font-family: 'Big Shoulders Stencil Display', cursive;
 font-style: normal;
@@ -83,10 +83,13 @@ line-height: 49px;
 
 color: #FFFFFF;
 }
-
+/* ultimate */
 strong{
     color: #FF0000;
 }
+
+
+/* footer styles */
 footer{
         
         background-color: #FF0000;
@@ -100,6 +103,31 @@ footer{
        margin-top: 2%;
        padding-top: 20px;
 }
+
+button{
+    background-color:white; 
+    border-radius:50px;
+    /* margin-top: 40%; */
+    }
+
+    /* button styles */
+#btn{
+    display: flex;
+    margin-top: 34%;
+   font-weight: 400;
+}
+
+#btn button{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+button:hover{
+    background-color: cyan;
+}
+
+
+
 footer div{
     display: flex;
     margin-left: 40%;
@@ -109,23 +137,17 @@ footer div img{
     padding-left: 20px;
 }
 
-button{
-    background-color:white; 
-    border-radius:50px;
-    
-    /* margin-top: 40%; */
+
+
+/* the start of styling the location.html page */
+#product div{
+    padding: 10px 20px 10px 20px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
 
 }
-#btn{
-    display: flex;
-    margin-top: 34%;
-   font-weight: 400;
-}
-#btn button{
-    text-align: center;
-    margin: auto;
-    font-size: 30px;
-}
-button:hover{
-    background-color: cyan;
+#product>div{
+    background-color: burlywood;
+    opacity: 0.9;
 }
