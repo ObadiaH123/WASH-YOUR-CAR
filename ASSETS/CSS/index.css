@@ -15,10 +15,10 @@ body{
     background-size: cover;
 }
 
-#topnav p{
+#nav p{
     margin-left: 2%;
 }
-#topnav img{
+#nav img{
     float: left;
     height: 100px;
     width: 100px;
@@ -81,7 +81,7 @@ font-weight: 500;
 font-size: 25px;
 line-height: 49px;
 
-color: #FFFFFF;
+color: #e21717;
 }
 /* ultimate */
 strong{
@@ -133,21 +133,7 @@ footer div{
     margin-left: 40%;
 
 }
+
 footer div img{
     padding-left: 20px;
-}
-
-
-
-/* the start of styling the location.html page */
-#product div{
-    padding: 10px 20px 10px 20px;
-    margin: 0 5px 0 5px;
-    text-align: center;
-    font-family: 'Caveat', cursive;
-
-}
-#product>div{
-    background-color: burlywood;
-    opacity: 0.9;
 }
