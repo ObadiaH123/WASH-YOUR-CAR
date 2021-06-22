@@ -1,55 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css"> 
-    <title>Contact Us</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Contact Us</title>
 </head>
 <body>
-  <div class="banner">
-    <div id="nav">
-        
-            <img src="./ASSETS/IMAGES/mainicon01.jpg">
 
+  <div class="about">
+    <h2>About Us</h2>
+    <p>At Nairobi's Ultimate Car Cleaning Hub, we pride ourselves as reliable solution givers for every car owner looking to have their car cleaned by trusted and professional car washers within Nairobi.</p>
+  </div>
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>Kindly, leave us a message:</p>
     </div>
-    <div id="navitems">
-        <p>Home</p>
-        <p>Contact Us</p>
-        <p>F.A.QSs</p>
-               
-
-    </div>
-</div>
-    <!-- <div class="container"> -->
-        
-          <h2>Contact Us</h2>
-          <p>Leave us a message:</p>
-      
-        <div class="row">
-          <div class="column">
-          <img src="" style="">
-          </div>
-          <div class="column">
-            <form action="">
-              
-                <label for="name">Name</label>
-              <input type="text" id="name" name="name" placeholder="Your name..">
-              
-              <label for="lname">Phone Number</label>
-              <input type="text" id="number" name="number" placeholder="Your number..">
-              
-              <label for="email">E-mail</label>
-              <input type="text" id="email" name="email address" placeholder="Your e-mail..">
-
-              <label for="subject">Comment</label>
-              <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
-              <input type="submit" value="Submit">
-            </form>
-          </div>
-        </div>
+    <div class="row">
+      <div class="column">
+        <img src="./ASSETS/IMAGES/" style="width:100%">
       </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name..">
+          
+          <label for="lname">Phone Number</label>
+          <input type="text" id="name" name="name" placeholder="Your last name..">
+          
+          <label for="country">Gender</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+          </select>
+          
+          <label for="subject">Comment</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+          
+        </form>
+        
+      </div>
+      
+    </div>
     
-</body>
-</html>
+  </div>
+  
+  </body>
+  </html>

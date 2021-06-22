@@ -1,5 +1,6 @@
 #nav p{
     margin-left: 2%;
+    padding-bottom: 250px;
 }
 #nav img{
     float: left;
@@ -11,6 +12,7 @@
 #navitems{
     display: flex ;
     padding-right: 30px;
+    justify-content: space-between;
 }
 
 #navitems p{
