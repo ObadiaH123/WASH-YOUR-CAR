@@ -34,7 +34,7 @@ body{
     list-style: none;
     /* display: inline-flex; */
     /* padding-left:200px; */
-    color: black;
+    color: white;
     font-weight: 800;
     font-size: 20px;
     padding-right: 50px;
@@ -110,8 +110,9 @@ footer div img{
 }
 
 button{
-    background-color: cyan; 
+    background-color:white; 
     border-radius:50px;
+    
     /* margin-top: 40%; */
 
 }
@@ -124,4 +125,7 @@ button{
     text-align: center;
     margin: auto;
     font-size: 30px;
+}
+button:hover{
+    background-color: cyan;
 }
