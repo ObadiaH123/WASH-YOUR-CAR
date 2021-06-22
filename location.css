@@ -1,0 +1,68 @@
+main{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+    
+
+    
+  
+  body{
+      background-image: url(ASSETS/IMAGES/carwash08.jpeg);
+      background-repeat: no-repeat;
+      position: absolute;
+      background-size: cover;
+
+     
+  }
+  h3{
+      color: white;
+      font-size: 38;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-align: center;
+  }
+  #icon1{
+      display: flex;
+      flex-wrap: wrap;
+      row-gap: 10px;
+      column-gap: 2em;
+      
+
+      
+  }
+  #icon2{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+    
+
+    
+}
+#icon3{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+    
+
+}
+#icon4{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 2em;
+    
+
+    
+}
+
+
+
+    
+
+
+  
+  
+  
