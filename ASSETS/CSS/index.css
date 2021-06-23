@@ -16,8 +16,6 @@ body{
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
 #nav p{
     margin-left: 2%;
 }
@@ -55,7 +53,6 @@ body{
     display: flex;
     justify-content: space-between;
 }
->>>>>>> d2bc51e639465d23182b462f5e52149a7fc67371
 .para{
     /* Nairobi’s Ultimate Car Cleaning Hub */
     position: absolute;
