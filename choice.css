@@ -5,15 +5,46 @@ body {
     background-size: cover;
     background-attachment: scroll;
 }
-.banner {
-    position: relative;
-    height: 50px;
-    width: 1565px;
-    background-color: #FF0000;
-}.nav {
-    position: absolute;
 }
-.
+#topnav p{
+    position: inherit;
+    width: 100px;
+    height: 100px;
+    margin-left: 2%;
+}
+#topnav img{
+    position: absolute;
+    height: 100px;
+    width: 500px;
+    
+}
+
+#navitems{
+    display: flex ;
+    padding-right: 30px;
+    color: white;
+}
+
+#navitems p{
+    list-style: none;
+    /* display: inline-flex; */
+    /* padding-left:200px; */
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    padding-right: 50px;
+}
+.banner{
+    /* position: absolute; */
+    width: 390%;
+    /* height: 75px; */
+    /* left: 50px; */
+    /* top: 27px; */
+    background: #FF0000;
+    opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+}
 #msa {
     position: absolute;
     width: 356px;
@@ -115,16 +146,28 @@ body {
     left: 1150px;
     top: 819px;
 }
-footer{
-        
-        background-color: #FF0000;
-       /* text-align: center; */
-       
-        /* margin-left: 80%;
-       
-       margin-bottom: 500%;
-       height: 50px; */
-       font-family: 'Pacifico', cursive;
-       margin-top: 370%;
-       padding-top: 30px;
+footer {
+   /* text-align: center; 
+   
+     margin-left: 90%;
+   
+   margin-bottom: 0%;
+   height: 50px; */
+   font-family: 'Pacifico', cursive;
+   margin-top: 200%;
+   padding-top: 20px;
+   height: 60px;
+   width: 400px
+   
+}
+footer div {
+position: absolute;
+display: flex;
+margin-left: 100%;
+}
+footer div img {
+padding-left: 20px;
+/* width: 300px;
+margin-left: 50%; */
+margin-left: 50%;
 }
