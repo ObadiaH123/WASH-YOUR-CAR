@@ -91,22 +91,6 @@ strong{
     color: #FF0000;
 }
 
-
-/* footer styles */
-footer{
-        
-        background-color: #FF0000;
-       /* text-align: center; */
-       
-        /* margin-left: 40%;
-       
-       margin-bottom: 0%;
-       height: 50px; */
-       font-family: 'Pacifico', cursive;
-       margin-top: 2%;
-       padding-top: 20px;
-}
-
 button{
     background-color:white; 
     border-radius:50px;
@@ -129,10 +113,24 @@ button:hover{
     background-color: cyan;
 }
 
+/* footer styles */
+footer{
+        
+    background-color: #FF0000;
+   /* text-align: center; */
+   
+    /* margin-left: 40%;
+   
+   margin-bottom: 0%;
+   height: 50px; */
+   font-family: 'Pacifico', cursive;
+   margin-top: 2%;
+   padding-top: 20px;
+}
 
 
 footer div{
-    display: flex;
+    /* display: flex; */
     margin-left: 40%;
 
 }
