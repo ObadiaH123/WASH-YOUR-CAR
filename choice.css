@@ -9,14 +9,13 @@ body {
     position: absolute;
     height: 60px;
     width: 60px;
+    top: 8px;
 }
-
 #navitems{
-    display: flex ;
+    display: flex;
     padding-right: 30px;
     color: white;
 }
-
 #navitems p{
     list-style: none;
     /* display: inline-flex; */
