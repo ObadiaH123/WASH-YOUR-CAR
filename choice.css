@@ -5,17 +5,10 @@ body {
     background-size: cover;
     background-attachment: scroll;
 }
-#topnav p{
-    position: inherit;
-    width: 100px;
-    height: 100px;
-    margin-left: 2%;
-}
-#topnav img{
+#nav {
     position: absolute;
-    height: 100px;
-    width: 500px;
-    
+    height: 60px;
+    width: 60px;
 }
 
 #navitems{
