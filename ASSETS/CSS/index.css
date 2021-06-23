@@ -13,6 +13,7 @@ body{
     background: url("../IMAGES/carwash08.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    width: 100%;
 }
 
 #nav p{
@@ -57,22 +58,24 @@ body{
     position: absolute;
 width: 1013px;
 height: 78px;
-left: 500px;
+/* left: 20%; */
+text-align: center;
 top: 250px;
 
 font-family: 'Big Shoulders Stencil Display', cursive;
 font-style: normal;
 font-weight: 600;
 font-size: 60px;
-line-height: 109px;
+/* line-height: 109px; */
 color: #FFFFFF;
 }
 .para1{
     /* we link you to the best ,trusted and reliable cleaners near you */
 position: absolute;
-width: 793px;
+width: 50%;
 height: 49px;
-left: 600px;
+/* left: 600px; */
+text-align: center;
 top: 400px;
 
 font-family: 'Big Shoulders Stencil Display', cursive;
