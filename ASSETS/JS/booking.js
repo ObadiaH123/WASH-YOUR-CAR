@@ -1,15 +1,15 @@
-let table =document.getElementById("table");
-let button=document.getElementById("button");
-
-
-
-button.onclick() =function(change){
-    //shrink the table
-    if (table.className==change){
-        table.className="";
-        table.innerHTML="Show Table";
-    }else{
-        table.className="change";
-        table.innerHTML="Hide Table";
-    }
-};
+// let content2= document.getElementById("content2");
+// let button= document.getElementById("show-more");
+// // attach function to the button
+// button.onclick = function (){
+// // we want to control the behavior of the button when clicked
+// if(content2.className == "open"){
+// // shrink the page
+// content2.className="";
+// button.innerHTML="Show more";
+// }else{
+//     // open the page
+//     content2.className ="open";
+//     button.innerHTML="Show less";
+// }
+// };

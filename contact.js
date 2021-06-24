@@ -3,19 +3,19 @@ const submitBtn = document.getElementById('submit-btn');
 const validate = (e) => {
     e.preventDefault();
 
-    const uname = document.getElementById('uName');
-    const pnum = document.getElementById('pNum');
-    const email = document.getElementById('eMail');
-    const gender = document.getElementById('sex');
-
-    if (uname.value === "");
+    const uname = document.getElementById('uName').value;
+    const pnum = document.getElementById('pNum').value;
+    const email = document.getElementById('eMail').value;
+    const gender = document.getElementById('sex').value;
+   
+    if (uname.value == "");
      {
          alert("Please enter your name.");
          uname.focus();
          return false;
      }
 
-     if (pnum.value === "") {
+     if (pnum.value == "") {
          alert("Please enter your phone number.");
          pnum.focus();
          return false;
@@ -32,5 +32,5 @@ const validate = (e) => {
 
 }
 
-submitBtn.addEventListener('click', validate);
+submitBtn.addEventListener('click', validate());
 
